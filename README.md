@@ -24,6 +24,6 @@ OpenClassrooms Course 'Sécurisez votre application web avec Spring Security' - 
    - Toutes les requêtes seront autorisées.
    - Il n'y aura pas d'écran de login, ni de mécanisme d’authentification.
    
-2. Dès la connexion, on arrive directement à la page http://localhost:8080/  :
+2. Dès la connexion, on arrive directement à la page http://localhost:8080/login :
     
    <img width="285" height="208" alt="image" src="https://github.com/user-attachments/assets/cc868045-ad9e-43a1-a029-6069ed802e20" />
