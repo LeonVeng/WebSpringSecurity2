@@ -17,3 +17,10 @@ OpenClassrooms Course 'Sécurisez votre application web avec Spring Security' - 
 
 <img width="285" height="108" alt="image" src="https://github.com/user-attachments/assets/65278742-85ea-480b-a804-bd09688e4b57" />
 
+## p1c5me en parallele avec p1c5
+1. Ajout de la classe SpringSecurityConfig , configuration minimale de la Sécurité via Spring Security  
+   - qui exige l'authentification pour tout
+   - ne précises aucune règle personnalisée (ni authorizeRequests, ni login, logout, etc.).
+   - Toutes les requêtes seront autorisées.
+   - Il n'y aura pas d'écran de login, ni de mécanisme d’authentification.
+   
