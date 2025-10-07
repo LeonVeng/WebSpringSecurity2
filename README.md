@@ -58,4 +58,12 @@ OpenClassrooms Course 'Sécurisez votre application web avec Spring Security' - 
 4. pom.xml : ajout JPA DATA, Mysql
 5. modifier le fichier application.properties.
 6. source data.sql ( database webspsecu2) dans la base Mysql
-7. Tests OK : dbuser/user et dbadmin/admin ( le role admin n'a pas é
+7. Tests OK : dbuser/user et dbadmin/admin.
+
+   <img width="310" height="82" alt="image" src="https://github.com/user-attachments/assets/34e3a95e-3102-403f-96a3-0f2790fb84c8" />
+
+<img width="233" height="115" alt="image" src="https://github.com/user-attachments/assets/f7f81630-59b2-411c-bab7-4207f10e5a2b" />
+<img width="282" height="110" alt="image" src="https://github.com/user-attachments/assets/b022e9a0-0563-468e-b0f8-ecf5d0e361a5" />
+<img width="225" height="47" alt="image" src="https://github.com/user-attachments/assets/5e41b6c7-dec8-4877-b0bc-a272ea22425c" />
+
+
