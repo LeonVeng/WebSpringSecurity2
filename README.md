@@ -33,3 +33,15 @@ OpenClassrooms Course 'Sécurisez votre application web avec Spring Security' - 
    
    Connexion http://localhost:8080/login  
     <img width="258" height="173" alt="image" src="https://github.com/user-attachments/assets/8a669cbd-cfad-4334-b086-881f25074a98" />
+
+## p1c6me en parrallele avec p1c6
+0. Modifier la classe SpringSecurityConfig : roles user et admin, créer les users user et admin
+1. Ajout d'une classe controller LoginController
+2. connexion user/user => "Whitelabel Error Page"  et modifier l'url
+   21. en  http://localhost:8080/user => affichage navigateur : "Welcome, User"
+   22. en http://localhost:8080/admin => affichage navigateur : "Whitelabel Error Page"
+   23. en http://localhost:8080/logout (natif) => pour se déconnecter
+3. connexion admin/admin => "Whitelabel Error Page"  et modifier l'url
+   31. en http://localhost:8080/admin => affichage navigateur : "Welcome, Admin"
+   32. en http://localhost:8080/user => affichage navigateur : "Welcome, User"
+   33. Conclusion : le role fonctionne bien . L'utilisateur peut accéder à la page de "user" en plus de la sienne.
