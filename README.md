@@ -51,3 +51,11 @@ OpenClassrooms Course 'Sécurisez votre application web avec Spring Security' - 
    <img width="224" height="58" alt="image" src="https://github.com/user-attachments/assets/d816c01a-8540-412e-ad35-64715d7fee60" />
    <img width="140" height="55" alt="image" src="https://github.com/user-attachments/assets/5a95cded-a2ee-4ceb-8019-8a683c2df1e1" />
 
+## p1c7me
+1. Adapter p1c7 ( base H2) à p1c7me ( base mysql)
+2. Ajout les classes DAL : DBUser ( model),DBUserRepository( repository) et CustomerUserDetailsService ( service)
+3. Modifier la classe CustomUserDetailsService ( Suppression de création users et ajout l'appel à la service)
+4. pom.xml : ajout JPA DATA, Mysql
+5. modifier le fichier application.properties.
+6. source data.sql ( database webspsecu2) dans la base Mysql
+7. Tests OK : dbuser/user et dbadmin/admin ( le role admin n'a pas é
